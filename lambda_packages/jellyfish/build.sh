@@ -102,5 +102,5 @@ if [ ${PY2} == 1 ]; then
 fi
 
 if [ ${PY3} == 1 ]; then
-    build_package ${PACKAGE} ${VERSION} python3.8 pip3.8 "python3.8 -m venv "
+    build_package ${PACKAGE} ${VERSION} python3.9 pip3.9 "python3.9 -m venv "
 fi
